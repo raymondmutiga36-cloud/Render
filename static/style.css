@@ -1,37 +1,61 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0f172a;
+    color: white;
 }
 
 nav {
-    background-color: #111;
-    padding: 15px 30px;
+    background: #1e293b;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
+    margin-left: 20px;
 }
 
 nav a:hover {
-    color: #00bcd4;
+    color: #38bdf8;
 }
 
-.container {
-    padding: 40px;
-    max-width: 900px;
-    margin: auto;
+.hero {
+    text-align: center;
+    padding: 100px 20px;
 }
 
-h1 {
-    font-size: 40px;
+.hero h1 {
+    font-size: 48px;
     margin-bottom: 10px;
 }
 
-p {
-    font-size: 18px;
-    color: #555;
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background: #1e293b;
+}
+
+.about h2 {
+    margin-bottom: 20px;
 }
